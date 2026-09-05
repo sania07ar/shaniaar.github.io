@@ -440,14 +440,14 @@
               </div>
             </div><!-- End Project Item 2 -->
 
-            <!-- Project Item 3: CampusKu (PHP & MySQL) -->
+            <!-- Project Item 3: CampusKU (Laravel / PHP & MySQL) -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div class="project-card-modern">
                 <div class="project-thumb">
                   <span class="project-category-badge">Web Application</span>
-                  <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" alt="CampusKu Website Informasi Kampus" class="img-fluid">
+                  <img src="assets/img/campusku/campusku-dashboard.png" alt="CampusKU Sistem Layanan dan Informasi Kampus" class="img-fluid" style="object-fit: cover; object-position: center top;">
                   <div class="project-thumb-overlay">
-                    <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="CampusKu - Platform Informasi Kampus" data-gallery="portfolio-gallery-web" class="glightbox overlay-action-btn" aria-label="Lihat Gambar">
+                    <a href="assets/img/campusku/campusku-dashboard.png" title="CampusKU - Sistem Layanan & Informasi Kampus" data-gallery="portfolio-gallery-web" class="glightbox overlay-action-btn" aria-label="Lihat Gambar">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                     <button type="button" class="overlay-action-btn" data-bs-toggle="modal" data-bs-target="#projectModalCampus" title="Detail Lengkap Proyek" aria-label="Detail Proyek">
@@ -457,21 +457,21 @@
                 </div>
 
                 <div class="project-body">
-                  <h3 class="project-title">CampusKu – Platform Informasi Kampus</h3>
+                  <h3 class="project-title">CampusKU – Sistem Layanan & Informasi Kampus</h3>
                   <p class="project-desc">
-                    Website informasi kampus yang dirancang sebagai pusat publikasi kegiatan akademik dan berita kampus terintegrasi dengan operasi basis data CRUD yang aman dan UI responsif.
+                    Platform web terpadu layanan mahasiswa dan akademik: Dashboard interaktif, Pengajuan Layanan (Surat Aktif, Skripsi, Konsultasi), Modul Pesan / Chat Mahasiswa & Dosen, serta Panel Admin.
                   </p>
 
                   <div class="project-tech-stack">
-                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">Laravel / PHP</span>
                     <span class="tech-tag">MySQL</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">CRUD</span>
+                    <span class="tech-tag">Blade & CSS</span>
+                    <span class="tech-tag">Live Chat</span>
                   </div>
 
                   <div class="project-footer-actions">
                     <button type="button" class="btn-project-detail" data-bs-toggle="modal" data-bs-target="#projectModalCampus">
-                      <i class="bi bi-eye-fill"></i> Detail Proyek & Arsitektur
+                      <i class="bi bi-eye-fill"></i> Detail Proyek & Screenshot
                     </button>
                   </div>
                 </div>
@@ -682,9 +682,9 @@
             </div>
 
             <div class="mb-2">
-              <div class="fw-bold text-dark small">3. CampusKu – Website Informasi Kampus</div>
-              <div class="text-muted small"><em>Tech: PHP, MySQL, JavaScript, CRUD</em></div>
-              <p class="small text-muted ps-3 mb-2">Membuat dan mengembangkan website CampusKu sebagai platform pusat informasi kegiatan dan akademik kampus.</p>
+              <div class="fw-bold text-dark small">3. CampusKU – Sistem Layanan & Informasi Kampus</div>
+              <div class="text-muted small"><em>Tech: Laravel, PHP, MySQL, Blade UI, Live Chat</em></div>
+              <p class="small text-muted ps-3 mb-2">Mengembangkan platform CampusKU sebagai sistem layanan terpadu (Surat Aktif, Skripsi, Konsultasi, Peminjaman Fasilitas), modul live messaging/pesan, dan dashboard admin terpusat.</p>
             </div>
 
             <div class="cv-section-title"><i class="bi bi-tools me-1"></i> Skills, Tools & Bahasa</div>
@@ -808,46 +808,75 @@
     </div>
   </div>
 
-  <!-- Modal 4: CampusKu Details -->
+  <!-- Modal 4: CampusKU Details (Authentic Gallery & Specs) -->
   <div class="modal fade" id="projectModalCampus" tabindex="-1" aria-labelledby="projectModalCampusLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="projectModalCampusLabel"><i class="bi bi-mortarboard-fill me-2"></i>CampusKu – Platform Informasi Kampus</h5>
+          <h5 class="modal-title" id="projectModalCampusLabel"><i class="bi bi-mortarboard-fill me-2"></i>CampusKU – Sistem Terpadu Layanan & Informasi Kampus</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" alt="Preview CampusKu" class="img-fluid rounded mb-3 w-100" style="max-height: 320px; object-fit: cover;">
+          <img src="assets/img/campusku/campusku-dashboard.png" alt="Preview Dashboard CampusKU" class="img-fluid rounded mb-3 w-100 border shadow-sm">
           
           <h6 class="fw-bold text-dark">Deskripsi Proyek</h6>
           <p class="small text-muted">
-            CampusKu adalah website portal pusat informasi kampus yang dirancang untuk mempermudah civitas akademika dan mahasiswa memperoleh informasi terkini mengenai kegiatan universitas, pengumuman fakultas, dan artikel akademik.
+            <strong>CampusKU</strong> adalah aplikasi web sistem informasi dan portal layanan kampus terpadu yang dirancang untuk mempermudah birokrasi akademik mahasiswa, komunikasi interaktif dengan bagian akademik/dosen pembimbing, serta pengelolaan master data oleh administrator.
           </p>
 
-          <h6 class="fw-bold text-dark">Fitur Utama Platform</h6>
+          <h6 class="fw-bold text-dark">Fitur Utama Platform CampusKU</h6>
           <ul class="small text-muted ps-3 mb-3">
-            <li>Halaman Beranda dengan feed berita dan pengumuman kampus terbaru.</li>
-            <li>Modul CRUD (Create, Read, Update, Delete) berita dan artikel oleh tim admin.</li>
-            <li>Filter pencarian informasi berdasarkan kategori kegiatan dan tanggal publikasi.</li>
-            <li>Tata letak antarmuka yang bersih, intuitif, dan responsif.</li>
+            <li><strong>Dashboard Mahasiswa:</strong> Widget ringkasan progress layanan (chart), agenda jadwal hari ini, pengumuman terbaru, dan status pengajuan berkas.</li>
+            <li><strong>Portal Pengajuan Layanan Akademik:</strong> Layanan Surat Keterangan Aktif, Konsultasi Akademik, Peminjaman Fasilitas Kampus, Bimbingan Skripsi, Pengajuan Administrasi, dan Pengaduan.</li>
+            <li><strong>Modul Pesan & Komunikasi Interaktif:</strong> Fitur percakapan real-time dengan Admin, Bagian Akademik, Dosen Pembimbing, dan Kemahasiswaan.</li>
+            <li><strong>Dashboard Admin Terpusat:</strong> Pengelolaan data pengajuan mahasiswa, verifikasi status berkas, publikasi pengumuman, dan manajemen akun pengguna.</li>
           </ul>
+
+          <h6 class="fw-bold text-dark mb-2">Galeri Antarmuka CampusKU</h6>
+          <div class="row g-2 mb-3">
+            <div class="col-6 col-md-3">
+              <a href="assets/img/campusku/campusku-layanan.png" class="glightbox" data-gallery="campusku-gallery" title="Portal Layanan Mahasiswa">
+                <img src="assets/img/campusku/campusku-layanan.png" alt="Layanan Mahasiswa" class="img-fluid rounded border">
+                <small class="d-block text-center text-muted mt-1" style="font-size: 0.75rem;">Portal Layanan</small>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="assets/img/campusku/campusku-pesan.png" class="glightbox" data-gallery="campusku-gallery" title="Modul Pesan & Chat">
+                <img src="assets/img/campusku/campusku-pesan.png" alt="Modul Pesan" class="img-fluid rounded border">
+                <small class="d-block text-center text-muted mt-1" style="font-size: 0.75rem;">Modul Pesan/Chat</small>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="assets/img/campusku/campusku-admin.png" class="glightbox" data-gallery="campusku-gallery" title="Dashboard Pengelolaan Admin">
+                <img src="assets/img/campusku/campusku-admin.png" alt="Dashboard Admin" class="img-fluid rounded border">
+                <small class="d-block text-center text-muted mt-1" style="font-size: 0.75rem;">Dashboard Admin</small>
+              </a>
+            </div>
+            <div class="col-6 col-md-3">
+              <a href="assets/img/campusku/campusku-login.png" class="glightbox" data-gallery="campusku-gallery" title="Halaman Login CampusKU">
+                <img src="assets/img/campusku/campusku-login.png" alt="Halaman Login" class="img-fluid rounded border">
+                <small class="d-block text-center text-muted mt-1" style="font-size: 0.75rem;">Halaman Login</small>
+              </a>
+            </div>
+          </div>
 
           <h6 class="fw-bold text-dark">Teknologi yang Digunakan</h6>
           <div class="d-flex flex-wrap gap-2 mb-3">
+            <span class="badge bg-danger">Laravel Framework</span>
             <span class="badge bg-primary">PHP</span>
-            <span class="badge bg-secondary">MySQL</span>
-            <span class="badge bg-warning text-dark">JavaScript</span>
-            <span class="badge bg-info text-dark">Bootstrap UI</span>
+            <span class="badge bg-secondary">MySQL Database</span>
+            <span class="badge bg-info text-dark">Blade Templating</span>
+            <span class="badge bg-success">Role-Based Auth</span>
           </div>
 
-          <h6 class="fw-bold text-dark">Peran & Kontribusi</h6>
+          <h6 class="fw-bold text-dark">Peran & Kontribusi Saya</h6>
           <p class="small text-muted mb-0">
-            Membangun arsitektur basis data relasional MySQL untuk artikel dan pengguna, mengimplementasikan logika CRUD pada backend PHP, serta memastikan tampilan responsif pada setiap perangkat.
+            Merancang skema database relasional di MySQL, membangun arsitektur controller dan routing backend menggunakan Laravel/PHP, mengembangkan komponen antarmuka yang ramah pengguna, serta mengimplementasikan modul perpesanan dan alur verifikasi berkas pengajuan mahasiswa.
           </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Tutup</button>
-          <a href="https://wa.me/6289618654818?text=Halo%20Shania,%20saya%20tertarik%20dengan%20proyek%20CampusKu%20Anda." target="_blank" class="btn btn-primary btn-sm">
+          <a href="https://wa.me/6289618654818?text=Halo%20Shania,%20saya%20sangat%20tertarik%20dengan%20proyek%20CampusKU%20yang%20Anda%20kembangkan." target="_blank" class="btn btn-primary btn-sm">
             <i class="bi bi-chat-dots me-1"></i> Tanyakan Mengenai Proyek Ini
           </a>
         </div>
