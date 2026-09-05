@@ -713,7 +713,7 @@ main, .main {
 .training-showcase-card {
   background: var(--surface-white);
   border-radius: var(--radius-md);
-  padding: 24px;
+  padding: 20px;
   border: 1px solid var(--border-light);
   box-shadow: var(--shadow-sm);
   position: relative;
@@ -727,16 +727,16 @@ main, .main {
 }
 
 .training-title {
-  font-size: 1.12rem;
+  font-size: 0.98rem;
   font-weight: 700;
   color: var(--dark-slate);
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 .training-gallery-item {
   position: relative;
   display: block;
-  height: 100px;
+  height: 92px;
   border-radius: var(--radius-sm);
   overflow: hidden;
   border: 1px solid var(--border-light);
