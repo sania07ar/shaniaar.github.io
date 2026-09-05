@@ -77,39 +77,53 @@
   <main class="main">
 
     <!-- ==============================================================
-         HERO SECTION - Classic 2-Column Standard Developer Portfolio
+         HERO SECTION - Modern Standard Developer Profile (Centered)
          ============================================================== -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section text-center">
       <div class="hero-bg-overlay"></div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-center gy-4">
+        <div class="row justify-content-center">
           
-          <!-- Column 1: Intro Text & CTAs (Left) -->
-          <div class="col-lg-7 col-md-7 text-start">
-            <div class="hero-status-pill">
-              <span class="status-dot"></span> Siap Bekerja Segera • Web Developer / IT Staff
+          <div class="col-lg-8 col-md-10">
+            
+            <!-- Centered Portrait Avatar (Zero Crop, Always Fully Visible) -->
+            <div class="hero-avatar-center-wrapper">
+              <div class="hero-avatar-center">
+                <img src="assets/img/profile-img.jpg" alt="Foto Wisuda Shania Ardani, S.Kom - UPI YPTK Padang">
+              </div>
+              <span class="hero-avatar-badge"><i class="bi bi-mortarboard-fill text-warning"></i> S.Kom</span>
             </div>
 
+            <!-- Open to Work Badge -->
+            <div>
+              <div class="hero-status-pill">
+                <span class="status-dot"></span> Siap Bekerja Segera • Web Developer / IT Staff
+              </div>
+            </div>
+
+            <!-- Main Heading -->
             <h1 class="hero-title mb-1">
               Halo, Saya <span class="text-gradient">Shania Ardani</span>
             </h1>
 
+            <!-- Dynamic Role Subtitle -->
             <p class="hero-subtitle mb-2">
-              Saya seorang <span class="typed" data-typed-items="Junior Web Developer,Lulusan Teknik Informatika (IPK 3.71),PHP & MySQL Developer,Implementor AI (Fuzzy Logic)">Junior Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+              Saya seorang <span class="typed" data-typed-items="Junior Web Developer,PHP & MySQL Developer,Laravel Framework,Implementor AI (Fuzzy Logic)">Junior Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
             </p>
 
-            <p class="hero-bio mb-3">
-              Lulusan <strong>S1 Teknik Informatika UPI YPTK Padang (IPK 3.71)</strong> dengan fokus pada pengembangan web (PHP, Laravel, MySQL), basis data relasional, dan sistem pendukung keputusan (Fuzzy Tsukamoto). Terbuka untuk peluang kerja on-site maupun remote.
+            <!-- Punchy Elevator Pitch (No repetition with About section) -->
+            <p class="hero-bio mx-auto mb-3">
+              Lulusan <strong>S1 Teknik Informatika UPI YPTK Padang (IPK 3.71)</strong> yang berfokus pada perancangan aplikasi web modern, basis data relasional, dan sistem pendukung keputusan.
             </p>
 
             <!-- Hero Action Buttons -->
-            <div class="hero-cta-group mb-3">
-              <a href="https://wa.me/6289618654818?text=Halo%20Shania%20Ardani,%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi%20mengenai%20peluang%20kerja/magang." target="_blank" class="btn-custom-primary">
-                <i class="bi bi-whatsapp"></i> WhatsApp
+            <div class="hero-cta-group justify-content-center mb-3">
+              <a href="https://wa.me/6289618654818?text=Halo%20Shania%20Ardani,%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi%20mengenai%20peluang%20kerja." target="_blank" class="btn-custom-primary">
+                <i class="bi bi-whatsapp"></i> Hubungi WhatsApp
               </a>
               <a href="#portfolio" class="btn-custom-secondary">
-                <i class="bi bi-grid-3x3-gap"></i> Portofolio
+                <i class="bi bi-grid-3x3-gap"></i> Lihat Portofolio
               </a>
               <button type="button" class="btn-custom-outline" data-bs-toggle="modal" data-bs-target="#cvSummaryModal">
                 <i class="bi bi-file-earmark-person"></i> Ringkasan CV
@@ -117,7 +131,7 @@
             </div>
 
             <!-- Social Links -->
-            <div class="hero-socials">
+            <div class="hero-socials justify-content-center">
               <span class="social-label me-1">Koneksi:</span>
               <a href="https://www.linkedin.com/in/shania-ardani-377059323" target="_blank" class="hero-social-btn" title="LinkedIn Profile" aria-label="LinkedIn">
                 <i class="bi bi-linkedin"></i>
@@ -132,18 +146,7 @@
                 <i class="bi bi-instagram"></i>
               </a>
             </div>
-          </div>
 
-          <!-- Column 2: Photo Portrait Frame (Right) -->
-          <div class="col-lg-5 col-md-5 d-flex justify-content-center justify-content-lg-end" data-aos="fade-left" data-aos-delay="200">
-            <div class="hero-avatar-card-wrapper">
-              <div class="hero-avatar-frame">
-                <img src="assets/img/profile-img.jpg" alt="Foto Wisuda Shania Ardani, S.Kom - UPI YPTK Padang">
-              </div>
-              <div class="hero-floating-badge">
-                <i class="bi bi-mortarboard-fill text-warning me-1"></i> UPI YPTK • IPK 3.71
-              </div>
-            </div>
           </div>
 
         </div>
@@ -151,14 +154,14 @@
     </section><!-- /Hero Section -->
 
     <!-- ==============================================================
-         ABOUT SECTION - Executive Profile & Education
+         ABOUT SECTION - Experience, Track Record & Credentials
          ============================================================== -->
     <section id="about" class="about section">
       
       <div class="container section-title" data-aos="fade-up">
-        <span class="badge-sub"><i class="bi bi-person-badge"></i> Profil & Kualifikasi</span>
+        <span class="badge-sub"><i class="bi bi-person-badge"></i> Pengalaman & Kualifikasi</span>
         <h2>Tentang Saya</h2>
-        <p>Latar belakang akademis, pengalaman pelatihan, dan kompetensi teknis rekayasa perangkat lunak</p>
+        <p>Latar belakang rekayasa perangkat lunak, pelatihan intensif, dan rekam jejak kerja</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -168,15 +171,19 @@
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
             <div class="about-card-main">
               <div class="lead-pitch">
-                "Lulusan S1 Teknik Informatika UPI YPTK Padang dengan IPK 3.71. Berpengalaman mengembangkan proyek sistem berbasis web (PHP, Laravel, MySQL) dan implementasi algoritma kecerdasan buatan (Fuzzy Tsukamoto)."
+                "Memiliki dasar keilmuan kuat dalam Rekayasa Perangkat Lunak, pengelolaan basis data relasional MySQL, dan implementasi algoritma kecerdasan buatan."
               </div>
 
               <p>
-                Memiliki pemahaman mendalam mengenai siklus hidup pengembangan perangkat lunak, analisis kebutuhan sistem, perancangan basis data relasional, serta pengujian sistem. Telah menyelesaikan pelatihan intensif <strong>Web Programmer di Mediatama Web Indonesia</strong> dan berpengalaman dalam administrasi data & pengarsipan saat <strong>PKL di SDN 10 Sungai Sapih</strong>.
+                Telah menyelesaikan pelatihan intensif <strong>Web Programmer di Mediatama Web Indonesia</strong> dengan fokus praktik pembuatan aplikasi berbasis PHP & MySQL, pemecahan masalah (*problem solving*), serta pemahaman siklus hidup pengembangan perangkat lunak (SDLC).
+              </p>
+              
+              <p>
+                Berpengalaman dalam manajemen data & administrasi saat <strong>PKL di SDN 10 Sungai Sapih</strong> melalui input rekapitulasi data, penyusunan surat laporan, dan pengarsipan digital.
               </p>
               
               <p class="mb-0">
-                Terbiasa bekerja secara teliti, adaptif terhadap teknologi baru, serta siap memberikan kontribusi maksimal baik secara mandiri maupun dalam kolaborasi tim untuk posisi <strong>IT Staff / Junior Web Developer / Software Engineer</strong>.
+                Terbiasa bekerja secara teliti, disiplin, cepat mempelajari teknologi baru, serta siap memberikan kontribusi maksimal dalam tim engineering untuk posisi <strong>IT Staff / Junior Web Developer</strong>.
               </p>
             </div>
           </div>
@@ -189,7 +196,7 @@
                 <div class="fact-item">
                   <div class="fact-icon"><i class="bi bi-mortarboard-fill"></i></div>
                   <div class="fact-text">
-                    <span class="fact-label">Pendidikan</span>
+                    <span class="fact-label">Pendidikan Formal</span>
                     <span class="fact-value">S1 Teknik Informatika - UPI YPTK (IPK 3.71)</span>
                   </div>
                 </div>
@@ -228,9 +235,9 @@
                     <p class="stat-desc">Sangat Memuaskan</p>
                   </div>
                   <div class="col-4 stat-box">
-                    <div class="stat-number">3+</div>
-                    <div class="stat-label">Proyek Teruji</div>
-                    <p class="stat-desc">Fuzzy AI, Laravel, Web</p>
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Proyek Portofolio</div>
+                    <p class="stat-desc">Web, AI, Mobile</p>
                   </div>
                   <div class="col-4 stat-box">
                     <div class="stat-number"><i class="bi bi-lightning-charge-fill"></i></div>
